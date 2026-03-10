@@ -71,3 +71,5 @@ If you want to reset the parameters, just click on the "Final" link.
 - [Chaikin's curves](https://observablehq.com/@pamacha/chaikins-algorithm) intro and interactive example
 - [OKLCH](https://oklch.com/) color space
 - [HSLuv](https://www.hsluv.org/) color space
+- [Ctrls](https://muffinman.io/ctrls/) my library for controlling parameters
+- [My Blog](https://muffinman.io) I write about similar creative projects
