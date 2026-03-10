@@ -2,40 +2,49 @@
 
 Try it live here: [muffinman.io/reverse-engineering-a-procedural-art-piece](https://muffinman.io/reverse-engineering-a-procedural-art-piece)
 
-[![](./screenshot-comparison.png)](https://muffinman.io/reverse-engineering-a-procedural-art-piece)
-
 The repo contains the accompanying code for the presentation I gave on [Creative Coding Amsterdam Meetup](https://cca.codes/events/reverese-engineeing-a-procedural-art-piece/). I replicated [these procedural images](https://www.reddit.com/r/generative/comments/ou0bz6/some_stills_from_a_generative_svg_turing/) from scratch and took the audience through the process.
 
 This repo is purely for educational purposes.
 
-Comparison (top is the original image from reddit, the bottom is generated using the tool I've created):
+## Comparison 
+
+Top is the original image from reddit, the bottom is generated using the tool I've created
+
+[![](./screenshot-comparison.png)](https://muffinman.io/reverse-engineering-a-procedural-art-piece)
 
 ## Setup
 
 ### First time:
 
-```
+Install node v24.3.0, for example using `nvm` :
+
+```sh
 nvm install v24.3.0
 nvm use
+```
 
+Install dependencies:
+
+```sh
 npm install
 ```
 
 ### Development:
 
-```
-nvm use
+```sh
+nvm use # to select the correct node version
 
 npm start
 ```
 
-Open http://localhost:1234/
+Open [localhost:1234](http://localhost:1234/)
 
-You should see this page. If you want to reset the parameters, just click on the "Final" link.
-
+You should see this page:
 ![](./screenshot.png)
 
 For a start focus on [generate.ts](./src/drawing/generate.ts) and [render.ts](./src/drawing/render.ts).
+
+If you want to reset the parameters, just click on the "Final" link.
 
 ## Concepts and libraries used
 
